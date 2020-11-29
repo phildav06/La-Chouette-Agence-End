@@ -110,14 +110,13 @@ a:hover {
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -128,6 +127,10 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(5, 5, 5, 0.6);
+}
+
+.d-bloc a .icon-md {
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -699,6 +702,9 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.social span {
+    font-size: 0.5rem;
+}
 
 h2 {
     font-size: 22px;
@@ -767,7 +773,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #97380C
 }
 
 .tc-white {
@@ -775,7 +781,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #97380C;
     color: #FFFFFF!important;
 }
 
@@ -1033,5 +1039,7 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}       text-align: center
     }
 }
